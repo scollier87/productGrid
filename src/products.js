@@ -1,9 +1,16 @@
 // products.js
+
+import dummyImage1 from './assets/dummyimage1.png';
+import dummyImage2 from './assets/dummyimage2.png';
+import dummyImage3 from './assets/dummyimage3.png';
+import dummyImage4 from './assets/dummyimage4.png';
+
+
 const products = [
-    { id: 1, name: 'Product 1', price: 50, imageUrl: './assets/dummyimage1.png' },
-    { id: 2, name: 'Product 2', price: 150, imageUrl: './assets/dummyimage2.png' },
-    { id: 3, name: 'Product 3', price: 200, imageUrl: './assets/dummyimage3.png' },
-    { id: 4, name: 'Product 4', price: 300, imageUrl: './assets/dummyimage4.png' },
+    { id: 1, name: 'A - Product 1', price: 50, imageUrl: dummyImage1 },
+    { id: 2, name: 'B - Product 2', price: 150, imageUrl: dummyImage2 },
+    { id: 3, name: 'C - Product 3', price: 200, imageUrl: dummyImage3 },
+    { id: 4, name: 'D - Product 4', price: 300, imageUrl: dummyImage4 },
     // Add more products as needed
   ];
 
