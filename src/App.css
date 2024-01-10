@@ -14,24 +14,45 @@ body {
   margin-top: 20px;
 }
 
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
 .product-card {
-  background: #fff;
-  border: 1px solid #ddd;
+  width: calc(33.333% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
   padding: 16px;
-  border-radius: 8px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
 }
 
 .product-card h3 {
-  margin: 0.5em 0;
-  color: #333;
+  margin: 10px;
+  font-size: 1.25em;
 }
 
 .product-card p {
-  margin: 0;
-  color: #666;
+  margin: 0 10px 10px;
+  font-size: 1em;
+  color: #333;
+}
+
+.product-card .price {
   font-weight: bold;
+  color: #1a1a1a;
 }
 
 /* Price Filter Styles */
