@@ -1,9 +1,25 @@
 /* General Styles */
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
+  background-image: url('./assets/yosemite.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center; /* Center align all content within the App container */
   padding: 20px;
+}
+
+.App h1 {
+  margin-bottom: 30px; /* Add space below the title */
 }
 
 /* Product Grid Styles */
@@ -158,4 +174,9 @@ body {
 
 .product-image-container:hover img:not(.hover-image) {
   opacity: 0;
+}
+
+.sort-filter {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
