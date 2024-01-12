@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
                 <img src={product.hoverImageUrl} alt={product.name} className="product-image hover-image" />
             </div>
             <h3>{product.name}</h3>
-            <p>${product.price}</p>
+            <p className="price">${product.price}</p>
         </div>
     )
 }
