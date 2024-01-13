@@ -93,7 +93,6 @@ body {
   width: 100px;
 }
 
-/* General styles for the slider (the track) */
 .slider {
   -webkit-appearance: none;
   width: 25%;
@@ -104,7 +103,6 @@ body {
   margin-top: 10px;
 }
 
-/* Styles for WebKit browsers */
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 25px;
@@ -125,7 +123,6 @@ body {
   z-index: 1;
 }
 
-/* Styles for Mozilla Firefox */
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
@@ -145,7 +142,6 @@ body {
   opacity: 1;
 }
 
-/* ProductCard.css */
 .product-image-container {
   position: relative;
   width: 100%;

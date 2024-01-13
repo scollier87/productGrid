@@ -57,10 +57,10 @@ import products from './products';
 // export default ProductGrid;
 
 const ProductGrid = () => {
-  const [sortType, setSortType] = useState('priceAsc');
+
   const maxPriceFromProducts = Math.max(...products.map(p => p.price));
   const minPriceFromProducts = Math.min(...products.map(p => p.price));
-
+  const [sortType, setSortType] = useState('priceAsc');
   const [maxPrice, setMaxPrice] = useState(maxPriceFromProducts);
 
   const handleSortChange = (e) => {
