@@ -43,7 +43,7 @@ body {
   border-radius: 4px;
   padding: 16px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
@@ -75,7 +75,6 @@ body {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
-/* Price Filter Styles */
 .price-filter {
   text-align: center;
   margin-bottom: 20px;
